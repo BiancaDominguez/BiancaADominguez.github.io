@@ -1,0 +1,104 @@
+/*Global Styling*/
+header {
+  width: 100%;
+}
+
+main {
+  display: block inline;
+  align-items: center;
+}
+
+body {
+  background-color: rgb(84, 87, 117);
+  font-family: "RedHatDisplay";
+  color: white;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+header {
+  font-family: "Cormorant";
+  font-size: 20px;
+}
+
+#container {
+  margin: 0px;
+  padding: 50px;
+  align-items: center;
+}
+
+/*Button Styling*/
+@font-face {
+  font-family: "RedHatDisplay";
+  src: url("fonts/RedHatDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("fonts/Cormorant-VariableFont_wght.ttf");
+}
+
+.button {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  line-height: 25px;
+  text-align: center;
+  font-family: "RedHatDisplay";
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.navigation {
+  padding: 15px;
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.navitems{
+  overflow: auto;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work {
+  background-color: rgb(232, 153, 141);
+}
+
+.art {
+  background-color: rgb(109, 163, 164);
+}
+
+.contact {
+  background-color: rgb(183, 209, 190);
+}
+
+/*BLock Styling*/
+.block1 {
+  background-color: rgb(232, 153, 141);
+}
+
+.block2 {
+  background-color: rgb(109, 163, 164);
+}
+
+.block3 {
+  background-color: rgb(183, 209, 190);
+}
+
+.title {
+  background-color: rgb(238, 210, 204);
+}
+
+a:hover {
+  color: rgb(232, 153, 141);
+  font-weight: bolder;
+}
